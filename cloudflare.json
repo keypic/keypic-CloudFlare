@@ -13,9 +13,9 @@
     ],
         "repository" : {
             "type" : "git",
-            "url" : "https://github.com/eitak-ssim/Earth-Hour-2012.git"
+            "url" : "https://github.com/keypic/keypic-CloudFlare.git"
         },
-        "main" : "./public/javascripts/earth_hour.js",
+        "main" : "",
         "dependencies" : {
         },
         "licenses" : [
@@ -40,7 +40,7 @@
                "Category": "Environment",
                "Language": "English",
                "Restrictions": "None",
-               "Supporting": "<a href='http://keypic.com'>EarthHour.org</a>"
+               "Supporting": "<a href='http://keypic.com'>keypic.com</a>"
            },
             "interface": [
             {
