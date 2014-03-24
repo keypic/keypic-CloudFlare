@@ -43,15 +43,6 @@
                "Restrictions": "None",
                "Supporting": "<a href='http://keypic.com'>keypic.com</a>"
            },
-            "interface": [
-            {
-                "name": "Start Time (24 hour format. Normally starts at 20:30)",
-                "id": "time",
-                "required": true,
-                "description": "",
-                "type": "string",
-                "value": "20:30"
-            }
-            ]
+            "interface": [{}]
         }
 }
