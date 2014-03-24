@@ -1,0 +1,56 @@
+{
+    "name": "Keypic",
+    "description": "Keypic fight SPAM without CAPTCHA.",
+    "keywords" : [
+        "advocacy"
+        ],
+    "version": "0.0.1",
+    "contributors": [
+    {
+        "name" : "Emanuele Rogledi",
+        "email" : "info@keypic.com"
+    }
+    ],
+        "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/eitak-ssim/Earth-Hour-2012.git"
+        },
+        "main" : "./public/javascripts/earth_hour.js",
+        "dependencies" : {
+        },
+        "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+        "implements" : "AMD",
+        "scripts" : {
+        },
+        
+        "config" : {
+            "assets" : {
+                "logos" : {
+                    "200px": "./public/images/Keypic200.png",
+                    "132px": "./public/images/Keypic132.png"
+                }
+            },
+            "payment": {},
+            "details": {
+               "Category": "Environment",
+               "Language": "English",
+               "Restrictions": "None",
+               "Supporting": "<a href='http://keypic.com'>EarthHour.org</a>"
+           },
+            "interface": [
+            {
+                "name": "Start Time (24 hour format. Normally starts at 20:30)",
+                "id": "time",
+                "required": true,
+                "description": "",
+                "type": "string",
+                "value": "20:30"
+            }
+            ]
+        }
+}
