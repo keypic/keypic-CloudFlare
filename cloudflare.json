@@ -1,8 +1,9 @@
 {
     "name": "Keypic",
+    "category": "webmaster",
     "description": "Keypic fight SPAM without CAPTCHA.",
     "keywords" : [
-        "advocacy"
+        "webmaster"
         ],
     "version": "0.0.1",
     "contributors": [
