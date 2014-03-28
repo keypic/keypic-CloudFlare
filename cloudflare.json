@@ -1,6 +1,6 @@
 {
     "name": "Keypic",
-    "category": "Security Monitoring",
+    "category": "webmaster",
     "description": "Keypic fights SPAM without CAPTCHA.",
     "keywords" : [
         "webmaster"
@@ -42,7 +42,7 @@
             },
             "payment": {},
             "details": {
-               "Category": "Security Monitoring",
+               "Category": "webmaster",
                "Language": "English",
                "Restrictions": "None",
                "Price": "From $12 per Year – to $99 per Month",
