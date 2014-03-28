@@ -1,11 +1,11 @@
 {
     "name": "Keypic",
-    "category": "webmaster",
-    "description": "Keypic fight SPAM without CAPTCHA.",
+    "category": "Security Monitoring",
+    "description": "Keypic fights SPAM without CAPTCHA.",
     "keywords" : [
         "webmaster"
         ],
-    "version": "0.0.2",
+    "version": "0.1.0",
     "contributors": [
     {
         "name" : "Emanuele Rogledi",
@@ -34,13 +34,19 @@
                 "logos" : {
                     "200px": "./public/images/Keypic200.png",
                     "132px": "./public/images/Keypic132.png"
-                }
+                },
+                "detail_page" : [
+                                    "./public/images/before.png",
+                                    "./public/images/after.png"
+                                ]
             },
             "payment": {},
             "details": {
-               "Category": "Webmaster Tools",
+               "Category": "Security Monitoring",
                "Language": "English",
                "Restrictions": "None",
+               "Price": "From $12 per Year – to $99 per Month",
+               "has_js": false,
                "Supporting": "<a href='http://keypic.com'>keypic.com</a>"
            },
             "interface": [{}]
